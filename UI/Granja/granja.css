@@ -383,10 +383,11 @@ text-align: end;
       font-weight: normal;
       color: #151515;
       text-shadow: 
-      -2px -2px 8px #f58634,
-      -2px 2px 8px #f58634,
-      2px 2px 2px #f58634,
-      2px 2px 2px #f58634;
+      2px 2px 0px #f58634,
+        2px 2px 0px #f58634,
+        -2px -2px 0px #f58634,
+        -2px 2px 0px #f58634,
+        2px -2px 0px #f58634;
     }
 
     #homeGlobalTexto{
@@ -561,14 +562,16 @@ text-align: end;
       justify-content:center;
       }
       
+  
       
       .figuras{
-        text-align: center;
+        margin-left: 0vw;
         margin-bottom: 50px;
       }
       
       .figuras img{
-        width:370px;}
+        width:370px;
+      }
       
       .qua-esq{
         display: none;
@@ -696,6 +699,8 @@ text-align: end;
       }
   }
 
+ 
+
   @media (max-width: 400px){
     #linhaGranja{
      display: none;
@@ -751,8 +756,13 @@ text-align: end;
       
       
       .figuras{
-        text-align: center;
+        margin-left: 0vw;
         margin-bottom: 50px;
+      }
+
+      .figuras img{
+        width:370px;
+        margin-left: -340px;
       }
       
       .figuras img{
@@ -884,5 +894,19 @@ text-align: end;
       }
   }
 
+  @media (max-width: 375px){
+    .figuras{
+      margin-left: 3vw;
+      margin-bottom: 50px;
+    }
+  }
+
+
+  @media (max-width: 360px){
+    .figuras{
+      margin-left: 0vw;
+      margin-bottom: 50px;
+    }
+  }
 
 

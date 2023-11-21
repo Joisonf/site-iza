@@ -206,7 +206,7 @@ text-align: center;
 
 
         .menu-mobile .btn-fechar{
-          padding: 15px 4%;
+          padding: 25px 4%;
         }
 
         .btn-fechar svg{
@@ -278,5 +278,74 @@ text-align: center;
           margin-left: 0px;
           margin-bottom: 20px;
         }
+        }
+
+        @media( max-width: 430px){
+          #home-iza-t h1{
+            font-size: 90px;
+            line-height: 70px;
+           }
+           #home-iza-t{
+            margin-top: 61vh;
+            margin-left: 50vw;
+           margin-bottom: 1vh;
+          }
+        }
+
+        @media( max-width: 414px){
+          #home-iza-t h1{
+            font-size: 90px;
+            line-height: 70px;
+           }
+           #home-iza-t{
+            margin-top: 60vh;
+            margin-left: 50vw;
+           margin-bottom: 1vh;
+          }
+        }
+
+        @media( max-width: 393px){
+          #home-iza-t h1{
+            font-size: 90px;
+            line-height: 80px;
+           }
+           #home-iza-t{
+
+            margin-top: 57vh;
+            margin-left: 50vw;
+           margin-bottom: 1vh;
+          }
+          
+        }
+
+        @media( max-width: 375px){
+          #home-iza-t h1{
+            font-size: 90px;
+            line-height: 80px;
+           }
+           #home-iza-t{
+            transform: rotate(270deg);
+            margin-top: 57vh;
+            margin-bottom: 0px;
+            display: block;
+            margin-left: 50vw;
+           margin-bottom: 1vh;
+          }
+        }
+
+        @media( max-width: 360px){
+          #home-iza-t h1{
+            font-size: 90px;
+            line-height: 80px;
+           }
+       
+           #home-iza-t{
+             transform: rotate(270deg);
+             margin-top: 55vh;
+             margin-bottom: 0px;
+             display: block;
+             margin-left: 39vw;
+            margin-bottom: 5vh;
+           }
         }
     
