@@ -47,7 +47,7 @@
 
   @media(max-width:555px){
     #tituloGlobal-S h1{
-      font-size: 150px;
+      font-size: 130px;
       font-weight: normal;
       color: #151515;
       text-shadow: 
@@ -56,6 +56,21 @@
       -2px -2px 0px #fff500,
       -2px 2px 0px #fff500,
       2px -2px 0px #fff500;
+    }
+
+    #homeGlobal h1{
+      line-height: 30px;
+      margin-top: 30px;
+    }
+  
+  
+    .contatoSB p{
+      font-size: 14px;
+    }
+  
+    #tituloNGranja h1{
+      font-size: 30px;
+      line-height: 30px;
     }
   
     .contatoSB p{

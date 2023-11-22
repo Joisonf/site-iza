@@ -52,7 +52,7 @@ height: 1500px;
 
 @media (max-width:555px){
   #tituloGlobal-S h1{
-    font-size: 150px;
+    font-size: 130px;
     font-weight: normal;
     color: #151515;
     text-shadow: 
@@ -80,7 +80,7 @@ height: 1500px;
   }
 
   #tituloNGranja h1{
-    font-size: 38px;
+    font-size: 35px;
     text-align: end;
   }
 

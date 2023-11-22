@@ -509,7 +509,7 @@ text-align: end;
   }
   
 
-  @media (max-width: 555px){
+  @media (max-width: 430px){
     #linhaGranja{
      display: none;
     }
@@ -562,17 +562,15 @@ text-align: end;
       justify-content:center;
       }
       
-  
-      
-      .figuras{
-        margin-left: 0vw;
+      div.figuras{
         margin-bottom: 50px;
+        width: auto;
+        margin-left: -25px;
       }
       
       .figuras img{
         width:370px;
       }
-      
       .qua-esq{
         display: none;
       }
@@ -762,7 +760,7 @@ text-align: end;
 
       .figuras img{
         width:370px;
-        margin-left: -340px;
+       
       }
       
       .figuras img{

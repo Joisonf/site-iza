@@ -63,6 +63,16 @@
     2px -2px 0px #fcbd70;
   }
 
+  #homeGlobal{
+    margin-bottom: 50px;
+  }
+
+  #homeGlobal h1{
+    line-height: 30px;
+    margin-top: 50px;
+  }
+
+
   .contatoSB p{
     font-size: 14px;
   }

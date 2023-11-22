@@ -672,6 +672,10 @@ margin-left: -110px;
     margin: auto;
   }
 
+  footer.rodape{
+    width: auto;
+  }
+
   .rodape{
     width: 355px;
     margin-left: -65px;
@@ -680,6 +684,9 @@ margin-left: -110px;
 
 
 @media( max-width: 393px){
+  body{
+    width: 390px;
+  }
   .curriculo-des{
     width: 373px;
     }
@@ -732,9 +739,14 @@ margin-left: -110px;
     margin-left: 0px;
   }
 
-  .rodape{
-    width: 355px;
-    margin-left: -85px;
+
+  footer.rodape{
+    width: auto;
+  }
+
+  .rodape-wh{
+    width: 290px;
+    margin-left: 100px;
   }
 }
 

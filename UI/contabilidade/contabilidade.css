@@ -309,6 +309,7 @@
       #tituloNGlobal h1{
         color:#555555 ;
         font-size: 30px;
+        line-height: 30px;
       }
       
       #tituloGlobal-c h1{

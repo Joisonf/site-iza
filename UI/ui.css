@@ -239,9 +239,13 @@ margin-top: 50px;
   @media (max-width: 430px){
     .ui-final{
       transform: translate(0%,110%);
-      margin-left: 63%;
+      margin-left: 63%;}
+
+      .menu h1{
+        width: 200px;
+      }
     }
-  }
+  
 
   @media (max-width: 414px){
     .ui-final{
