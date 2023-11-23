@@ -294,12 +294,12 @@ text-align: center;
 
         @media( max-width: 415px){
           #home-iza-t h1{
-            font-size: 80px;
+            font-size: 13vh;
             line-height: 70px;
            }
            #home-iza-t{
-            margin-top: 60vh;
-            margin-left: 50vw;
+            margin-top: 440px;
+            margin-left: 53vw;
            margin-bottom: 1vh;
           }
         }
