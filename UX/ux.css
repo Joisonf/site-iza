@@ -152,19 +152,29 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 304px;
+    margin-left: 70vw;
     margin-top: 13vh;
     font-size: 10vh;
   }
+
+  .ux h1{
+    font-size:30px;
+  }
+
+
 }
 
 @media( max-width: 414px){
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 294px;
-    margin-top: 15vh;
+    margin-left: 70vw;
+    margin-top: 12vh;
     font-size: 10vh;
+  }
+
+  .ux h1{
+    font-size:30px;
   }
 }
 
@@ -172,9 +182,12 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 274px;
-    margin-top: 14vh;
+    margin-left: 70vw;
+    margin-top: 11vh;
     font-size: 10vh;
+  }
+  .ux h1{
+    font-size:30px;
   }
 }
 
@@ -182,9 +195,12 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 274px;
+    margin-left: 70vw;
     margin-top: 10vh;
     font-size: 10vh;
+  }
+  .ux h1{
+    font-size:30px;
   }
 }
 
@@ -204,7 +220,7 @@ h2{
   }
 
   .ux h1{
-    font-size: 20px;
+    font-size: 30px;
     color: #fff500;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -213,8 +229,8 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 240px;
-    margin-top: 14vh;
+    margin-left: 67vw;
+    margin-top: 12vh;
     font-size: 10vh;
   }
 
