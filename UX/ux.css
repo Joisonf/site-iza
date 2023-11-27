@@ -149,12 +149,15 @@ h2{
 }
 
 @media( max-width: 428px){
+  .ux h2{
+    font-size: 50px;
+  }
+
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 70vw;
-    margin-top: 13vh;
-    font-size: 10vh;
+    margin-left: 330px;
+    margin-top: 15vh;
   }
 
   .ux h1{
@@ -165,12 +168,15 @@ h2{
 }
 
 @media( max-width: 414px){
+  .ux h2{
+    font-size: 50px;
+  }
+
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 70vw;
-    margin-top: 12vh;
-    font-size: 10vh;
+    margin-left: 310px;
+    margin-top: 15vh;
   }
 
   .ux h1{
@@ -179,12 +185,15 @@ h2{
 }
 
 @media( max-width: 393px){
+  .ux h2{
+    font-size: 50px;
+  }
+
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 70vw;
-    margin-top: 11vh;
-    font-size: 10vh;
+    margin-left: 290px;
+    margin-top: 10vh;
   }
   .ux h1{
     font-size:30px;
@@ -192,13 +201,18 @@ h2{
 }
 
 @media( max-width: 375px){
+
+  .ux h2{
+    font-size: 50px;
+  }
+
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 70vw;
+    margin-left: 270px;
     margin-top: 10vh;
-    font-size: 10vh;
   }
+
   .ux h1{
     font-size:30px;
   }
@@ -216,7 +230,7 @@ h2{
   }
 
   .ux h2{
-    font-size: 10vh;
+    font-size: 50px;
   }
 
   .ux h1{
@@ -229,9 +243,8 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 67vw;
-    margin-top: 12vh;
-    font-size: 10vh;
+    margin-left: 260px;
+    margin-top: 10vh;
   }
 
   .linhaux img{
