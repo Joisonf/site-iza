@@ -156,8 +156,8 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 330px;
-    margin-top: 15vh;
+    margin-left: 78vw;
+    margin-top: 10vh;
   }
 
   .ux h1{
@@ -176,7 +176,7 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 310px;
+    margin-left: 78vw;
     margin-top: 10vh;
   }
 
@@ -194,24 +194,26 @@ h2{
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 290px;
+    margin-left: 78vw;
     margin-top: 10vh;
   }
+
   .ux h1{
     font-size:30px;
   }
 }
 
+
 @media( max-width: 375px){
 
   .ux h2{
-    font-size: 50px;
+    font-size: 45px;
   }
 
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 270px;
+    margin-left: 78vw;
     margin-top: 10vh;
   }
 
@@ -221,35 +223,18 @@ h2{
 }
 
 @media( max-width: 360px){
-  .ux-foto img{
-    height: 50vh;
-    text-align: center; 
-  }
-
-  .ux{
-   text-align: start;
-   
-  }
-
   .ux h2{
-    font-size: 50px;
-  }
-
-  .ux h1{
-    font-size: 30px;
-    color: #fff500;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 45px;
   }
 
   h2{
     display: block;
     transform: translate(0%, 0%);
-    margin-left: 260px;
+    margin-left: 76vw;
     margin-top: 10vh;
   }
 
-  .linhaux img{
-    display: none;
+  .ux h1{
+    font-size:30px;
   }
 }
