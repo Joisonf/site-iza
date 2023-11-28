@@ -1,5 +1,5 @@
 *{
-  background-color:#151515 ;
+  background-color: #151515 ;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
   padding: 0px;
@@ -267,10 +267,10 @@ margin-top: 50px;
 
       .ui-final{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(0%,190%);
+        transform: translate(0%,0%);
         font-size: 70px;
-        margin-left: 78vw;
-        margin-bottom: 10%;
+        margin-left: 79vw;
+        margin-top: 13vh;
       }
     }
   
@@ -304,10 +304,10 @@ margin-top: 50px;
 
       .ui-final{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(0%,190%);
+        transform: translate(0%,0%);
         font-size: 70px;
-        margin-left: 78vw;
-        margin-bottom: 10%;
+        margin-left: 79vw;
+        margin-top: 13vh;
       }
   }
 
@@ -339,10 +339,10 @@ margin-top: 50px;
 
       .ui-final{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(0%,180%);
+        transform: translate(0%,0%);
         font-size: 70px;
-        margin-left: 78vw;
-        margin-bottom: 10%;
+        margin-left: 79vw;
+        margin-top: 13vh;
       }
   }
 
@@ -374,10 +374,10 @@ margin-top: 50px;
 
       .ui-final{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(0%,180%);
+        transform: translate(0%,0%);
         font-size: 70px;
         margin-left: 78vw;
-        margin-bottom: 10%;
+        margin-top: 12vh;
       }
   }
 
@@ -410,10 +410,10 @@ margin-top: 50px;
 
       .ui-final{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(0%,180%);
+        transform: translate(0%,0%);
         font-size: 70px;
-        margin-left: 78vw;
-        margin-bottom: 10%;
+        margin-left: 76vw;
+        margin-top: 10vh;
       }
   
   }
