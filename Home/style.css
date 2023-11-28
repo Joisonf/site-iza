@@ -285,16 +285,14 @@ text-align: center;
             font-size: 90px;
             line-height: 70px;
            }
-           #home-iza-t{
-            margin-top: 59vh;
-            margin-left: 53vw;
-           margin-bottom: 0vh;
-          }
 
-          #home-iza{
-            margin: auto;
-            margin-bottom: 50px;
+           #home-iza-t{
+            transform: rotate(270deg);
+            margin-top: 57vh;
+            margin-left: 51vw;
+            margin-bottom: 10vh;
            }
+
         }
 
         @media( max-width: 415px){
@@ -302,33 +300,27 @@ text-align: center;
             font-size: 90px;
             line-height: 70px;
            }
-           #home-iza-t{
-            margin-top: 59vh;
-            margin-left: 53vw;
-           margin-bottom: 0vh;
-          }
 
-          #home-iza{
-            margin: auto;
-            margin-bottom: 40px;
+           #home-iza-t{
+            transform: rotate(270deg);
+            margin-top: 57vh;
+            margin-left: 51vw;
+            margin-bottom: 10vh;
            }
+
         }
 
         @media( max-width: 393px){
           #home-iza-t h1{
-            font-size: 90px;
-            line-height: 70px;
+            font-size: 80px;
+            line-height: 60px;
            }
 
            #home-iza-t{
-            margin-top: 59vh;
-            margin-left: 57vw;
-           margin-bottom: 0vh;
-          }
-
-          #home-iza{
-            margin: auto;
-            margin-bottom: 40px;
+            transform: rotate(270deg);
+            margin-top: 58vh;
+            margin-left: 55vw;
+            margin-bottom: 10vh;
            }
           
         }
@@ -340,21 +332,16 @@ text-align: center;
            }
            #home-iza-t{
             transform: rotate(270deg);
-            margin-top: 59vh;
-            margin-left: 55vw;
-           margin-bottom: 15px;
+            margin-top: 55vh;
+            margin-left: 54vw;
+           margin-bottom: 10px;
           }
-
-           #home-iza{
-            margin: auto;
-            margin-bottom: 40px;
-           }
         }
 
         @media( max-width: 365px){
          
           #home-iza-t h1{
-            font-size: 80px;
+            font-size: 75px;
             line-height: 60px;
             margin: auto;
             margin-bottom: 15px;
@@ -362,14 +349,10 @@ text-align: center;
 
            #home-iza-t{
             transform: rotate(270deg);
-            margin-top: 55vh;
-            margin-left: 50vw;
-            margin-bottom: 10px;
+            margin-top: 50vh;
+            margin-left: 49vw;
+            margin-bottom: 10vh;
            }
 
-           #home-iza{
-            margin: auto;
-            margin-bottom: 60px;
-           }
         }
     
