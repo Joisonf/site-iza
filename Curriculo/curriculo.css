@@ -569,12 +569,11 @@ width: 395px;
     font-size: 12px;
     line-height: 16px;
     width: 395px;
-    margin-left: 0px;
   }
 
   #foto-iza{
     margin-bottom:365px;
-    margin-left:21vw;   
+    margin-left:22vw;   
   }
 
   .experiencia{
@@ -584,8 +583,7 @@ width: 395px;
   }
 
   .div{
-margin-left: 0px;
-width: 395px;
+  width: 395px;
   }
 
   .experiencia h3{
@@ -595,20 +593,22 @@ width: 395px;
 
   .p{
     font-size: 12px;
-    margin-left: 8px;
   }
 
   .lista-exp{
     font-size: 12px;
     width: 395px;
-    margin-left: 20px;
     margin-top: 15px;
     line-height: 15px;
   }
 
   .lista-exp li{
     margin-bottom: 10px;
-    width: 400px;
+    width: 390px;
+  }
+
+  .lista-exp ul{
+    width: 380px;
   }
 
   .soft-principal{
@@ -628,25 +628,18 @@ width: 395px;
   }
 
   p{
-    margin-left: 4px;
+
   }
 
   footer.rodape{
+    margin: auto;
     margin-top: 50px;
+    width: auto;
   }
 
   .rodape-wh{
-    width: 410px;
+    width: 400px;
     text-align: center;
-  }
-
-  footer{
-    width:auto;
-  }
-
-  .rodape{
-    width: auto;
-    margin: auto;
   }
 }
 
