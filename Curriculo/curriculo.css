@@ -455,7 +455,7 @@ margin-left: -90px;
   body{
     margin: auto;
     width: 428px;
-    margin-right: 0px;
+
   }
   .curriculo-des{
     width: 410px;
@@ -500,7 +500,7 @@ margin-left: -90px;
 
   .lista-exp{
     font-size: 12px;
-    width: 410px;
+    width: 350px;
     margin-top: 15px;
     line-height: 15px;
   }
@@ -511,7 +511,7 @@ margin-left: -90px;
   }
 
   .lista-exp ul{
-    width: 410px;
+    width: 350px;
   }
 
   .soft-principal{
@@ -530,9 +530,6 @@ margin-left: -90px;
     width: 410PX;
   }
 
-  p{
-
-  }
 
   footer.rodape{
     margin: auto;
@@ -550,11 +547,15 @@ margin-left: -90px;
 @media( max-width: 415px){
   body{
     margin: auto;
-    width: 410px;
+    width: 400px;
   }
   .curriculo-des{
-    width: 395px;
+    width: 390px;
     }
+
+  #curriculo-bio{
+    width: 380px;
+  } 
   
   .curriculo-des h2{
   font-size: 16px;
@@ -593,18 +594,18 @@ margin-left: -90px;
 
   .lista-exp{
     font-size: 12px;
-    width: 395px;
+    width: 335px;
     margin-top: 15px;
     line-height: 15px;
   }
 
   .lista-exp li{
     margin-bottom: 10px;
-    width: 390px;
+    width: 350px;
   }
 
   .lista-exp ul{
-    width: 380px;
+    width: 330px;
   }
 
   .soft-principal{
@@ -623,18 +624,16 @@ margin-left: -90px;
     width: 400PX;
   }
 
-  p{
-
-  }
 
   footer.rodape{
     margin: auto;
     margin-top: 50px;
     width: auto;
+    
   }
 
   .rodape-wh{
-    width: 400px;
+    width: 380px;
     text-align: center;
   }
 }
@@ -643,7 +642,7 @@ margin-left: -90px;
 @media( max-width: 393px){
   body{
     margin: auto;
-    width: 393px;
+    width: 380px;
   }
   .curriculo-des{
     width: 370px;
@@ -690,10 +689,15 @@ width: 370px;
 
   .lista-exp{
     font-size: 12px;
-    width: 370px;
+    width: 350px;
     margin-left: 20px;
     margin-top: 15px;
     line-height: 15px;
+  }
+
+  .lista-exp ul {
+    width: 330px;
+    margin: 0px;
   }
 
   .lista-exp li{
@@ -725,10 +729,12 @@ width: 370px;
 
   footer.rodape{
     margin-top: 50px;
+    width:180px;
+    margin: auto;
   }
 
   .rodape-wh{
-    width: 393px;
+    width: 360px;
     text-align: center;
   }
 
@@ -746,7 +752,7 @@ width: 370px;
 @media( max-width: 375px){
   body{
     margin: auto;
-    width: 375px;
+    width: 365px;
   }
   .curriculo-des{
     width: 355px;
@@ -762,6 +768,10 @@ width: 370px;
     line-height: 16px;
     width: 355px;
     margin-left: 0px;
+  }
+
+  #curriculo-bio{
+    width: 360px;
   }
 
   #foto-iza{
@@ -788,15 +798,19 @@ width: 355px;
   .p{
     font-size: 12px;
     margin-left: 10px;
-    width: 340px;
+    width: 355px;
   }
 
   .lista-exp{
     font-size: 12px;
-    width: 355px;
+    width: 340px;
     margin-left: 20px;
     margin-top: 15px;
     line-height: 15px;
+  }
+
+  .lista-exp ul{
+    width: 300px;
   }
 
   .lista-exp li{
@@ -812,26 +826,26 @@ width: 355px;
   .soft-slills{
     font-size: 11px;
     margin-top: 0px;
-    width: 355px;
+    width: 350px;
     margin: auto;
   }
 
   .formacao{
-    width: 360PX;
+    width: 360px;
   }
 
   p{
-    margin-left: 4px;
+    margin-left: 0px;
     width: 200px;
   }
 
-  .rodape-wh{
-    width: 360px;
-    text-align: center;
+  footer.rodape{
+    width: 170px;
   }
 
-  .rodape{
-    width: auto;
+  .rodape-wh{
+    width: 320px;
+    text-align: center;
   }
 }
 
@@ -890,15 +904,19 @@ width: 350px;
 
   .lista-exp{
     font-size: 12px;
-    width: 340px;
+    width: 300px;
     margin-left: 20px;
     margin-top: 15px;
     line-height: 15px;
   }
 
+  .lista-exp ul{
+    width: 300px;
+  }
+
   .lista-exp li{
     margin-bottom: 10px;
-    width: 330px;
+    width: 300px;
   }
 
   .soft-principal{
@@ -917,13 +935,15 @@ width: 350px;
     width: 340PX;
   }
 
-  .rodape-wh{
-    width: 355px;
-    text-align: center;
+  footer.rodape{
+    width: 160px;
+    margin-top: 50px;
   }
 
-  .rodape{
-    width: auto;
+  .rodape-wh{
+    width: 320px;
+    text-align: center;
+   
   }
 
 }
