@@ -451,373 +451,485 @@ margin-left: -90px;
 }
 }
 
-
-@media( max-width: 400px){
-  #linha{
-    display: none;
-  }
-
-  .curriculo-des{
+@media( max-width: 431px){
+  body{
     margin: auto;
-    padding: 140px 5px 5px 5px;
-    width: 360px;
-    margin-top: 110px;
- 
+    width: 425px;
+  }
+  .curriculo-des{
+    width: 410px;
     }
   
   .curriculo-des h2{
   font-size: 16px;
-  margin-bottom: 20px;
-  text-align: center;
   }
   
   .curriculo-des p{
-   background-color:#ffffff;
-   color: #151515;
     font-size: 12px;
+    line-height: 16px;
+    width: 410px;
+    margin-left: 0px;
+  }
+
+  #foto-iza{
+    margin-bottom:347px;
+    margin-left:22vw;   
+  }
+
+  .experiencia{
+    width: 410px;
     margin: auto;
-    width: 350px;
-    margin-left: 0px;
+    margin-top: 20px;
   }
 
-  #retangulo{
-    display: none;
+  .div{
+margin-left: 0px;
+width: 395px;
   }
 
-  #met-quadrado{
-    display: none;
-  }
-
-  #foto-iza{
-    position: absolute;
-    display: block;
-    transform: translate(0%, 0%);
-    margin-bottom:365px;
-    margin-left:20vw;
-    border-radius: 50%;
-    padding:10px;
-  }
-  
-  .curriculo-des img{
-    width: 200px;
- }
-
-#met-quadrado{
-  display: none;
-}
-
-
-.titulo h1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 23px;
-  font-weight: 600;
-  margin: auto;
-  color: #FFF500;
-  margin: 50px 0px 50px 0px;
-  border-bottom: 1px solid #ffffff ;
-}
-
-.experiencia{
-display: grid;
-grid-auto-flow:column;
-justify-content: space-between;
-margin: auto;
-margin-bottom: 0px;
-margin-top: 10px;
-width: 340px;
-}
-
-.experiencia h3{
-  font-size: 13px;
-}
-
-.lista-exp{
-  margin-left: 25px;
-  margin-bottom: 20px;
-  line-height: 22px;
-  font-size: 11px;
-  width: 340px;
-}
-
-p{
-  font-size: 12px;
-  margin-left: 14px;
-  margin-bottom: 10px;
-  width: 340px;
-  margin: auto;
-
-}
-
-
-.soft-slills{
-  display: grid;
-  grid-auto-flow:column;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  margin-top: 0px;
-  width: 340px;
-  margin: auto;
-}
-
-.soft-slills li{
-  margin: 0px 10px 20px 10px;
-  list-style: none;
-  padding: 10px;
-  font-weight: 800;
-}
-
-.formacao{ 
-  border: 1px solid #FFF500;
-  padding: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  width: 340px;
-  margin: auto;
-}
-
-.formacao h3{
- margin: auto;
- font-size: 11px;
-}
-
-.rodape{
-  display: grid;
-  grid-auto-flow:column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-width: 370px;
-margin-left: -110px;
-}
-
-.rodape-wh{
-  background-color: #ffffff;
-}
-
-.rodape a {
-  background-color: #ffffff;
-}
-
-
-.rodape-wh img{
-  background-color: #ffffff;
-  margin: 10px;
-  width: 20px;
-  height: 20px;
-}
-}
-
-@media( max-width: 430px){
-  .curriculo-des{
-    width: 400px;
-    }
-
-    .experiencia{
-      width: 400px;
-      }
-  
-  .curriculo-des h2{
-  font-size: 18px;
-  }
-  
-  .curriculo-des p{
+  .experiencia h3{
+    margin: auto;
     font-size: 12px;
-    width: 400px;
-    margin-left: 0px;
-  }
-
-  #foto-iza{
-    margin-bottom:356px;
-    margin-left:21vw;   
   }
 
   .p{
     font-size: 12px;
-    margin-left: 19px;
+    margin-left: 8px;
   }
 
   .lista-exp{
-    margin-left: 35px;
     font-size: 12px;
-    width: 400px;
+    width: 410px;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 15px;
   }
 
-  .formacao{ 
-    border: 1px solid #FFF500;
-    padding: 5px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 400px;
+  .lista-exp li{
+    margin-bottom: 10px;
+    width: 410px;
+  }
+
+  .soft-principal{
+    width: 410px;
     margin: auto;
-  }
-  
-  .formacao h3{
-   margin: auto;
-   font-size: 11px;
-  }
-
-  p{
-    margin-left: 0px;
   }
 
   .soft-slills{
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 0px;
-    width: 400px;
+    width: 410px;
     margin: auto;
   }
 
+  .formacao{
+    width: 410PX;
+  }
+
+  p{
+    margin-left: 4px;
+  }
+
   footer.rodape{
-    width: auto;
+    margin-top: 50px;
+  }
+
+  .rodape-wh{
+    width: 410px;
+    text-align: center;
+  }
+
+  footer{
+    width:auto;
   }
 
   .rodape{
-    width: 355px;
-    margin-left: -65px;
+    width: auto;
+    margin: auto;
+  }
+}
+
+
+@media( max-width: 415px){
+  body{
+    margin: auto;
+    width: 410px;
+  }
+  .curriculo-des{
+    width: 395px;
+    }
+  
+  .curriculo-des h2{
+  font-size: 16px;
+  }
+  
+  .curriculo-des p{
+    font-size: 12px;
+    line-height: 16px;
+    width: 395px;
+    margin-left: 0px;
+  }
+
+  #foto-iza{
+    margin-bottom:365px;
+    margin-left:21vw;   
+  }
+
+  .experiencia{
+    width: 395px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .div{
+margin-left: 0px;
+width: 395px;
+  }
+
+  .experiencia h3{
+    margin: auto;
+    font-size: 12px;
+  }
+
+  .p{
+    font-size: 12px;
+    margin-left: 8px;
+  }
+
+  .lista-exp{
+    font-size: 12px;
+    width: 395px;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 15px;
+  }
+
+  .lista-exp li{
+    margin-bottom: 10px;
+    width: 400px;
+  }
+
+  .soft-principal{
+    width: 395px;
+    margin: auto;
+  }
+
+  .soft-slills{
+    font-size: 11px;
+    margin-top: 0px;
+    width: 395px;
+    margin: auto;
+  }
+
+  .formacao{
+    width: 400PX;
+  }
+
+  p{
+    margin-left: 4px;
+  }
+
+  footer.rodape{
+    margin-top: 50px;
+  }
+
+  .rodape-wh{
+    width: 410px;
+    text-align: center;
+  }
+
+  footer{
+    width:auto;
+  }
+
+  .rodape{
+    width: auto;
+    margin: auto;
   }
 }
 
 
 @media( max-width: 393px){
   body{
-    width: 390px;
+    margin: auto;
+    width: 393px;
   }
   .curriculo-des{
-    width: 373px;
+    width: 370px;
     }
-
-    .experiencia{
-      width: 370px;
-      }
   
   .curriculo-des h2{
-  font-size: 17px;
+  font-size: 16px;
   }
   
   .curriculo-des p{
     font-size: 12px;
-    width: 373px;
+    line-height: 16px;
+    width: 370px;
     margin-left: 0px;
   }
 
   #foto-iza{
-    margin-bottom:370px;
+    margin-bottom:380px;
     margin-left:19vw;   
   }
 
+  .experiencia{
+    width: 370px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .div{
+margin-left: 0px;
+width: 370px;
+  }
+
+  .experiencia h3{
+    margin: auto;
+    font-size: 12px;
+  }
+
   .p{
-    font-size: 11px;
+    font-size: 12px;
     margin-left: 9px;
+    width: 370px;
   }
 
   .lista-exp{
-    margin-left: 26px;
     font-size: 12px;
-    width: 360px;
+    width: 370px;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 15px;
   }
 
-  .formacao{ 
-    border: 1px solid #FFF500;
-    padding: 5px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+  .lista-exp li{
+    margin-bottom: 10px;
+    width: 350px;
+  }
+
+  .soft-principal{
     width: 370px;
     margin: auto;
   }
-  
-  .formacao h3{
-   margin: auto;
-   font-size: 11px;
+
+  .soft-slills{
+    font-size: 11px;
+    margin-top: 0px;
+    width: 370px;
+    margin: auto;
+  }
+
+  .formacao{
+    width: 370PX;
   }
 
   p{
+    margin: auto;
+    width: 370px;
     margin-left: 0px;
   }
 
-
   footer.rodape{
-    width: auto;
+    margin-top: 50px;
   }
 
   .rodape-wh{
-    width: 290px;
-    margin-left: 100px;
+    width: 393px;
+    text-align: center;
+  }
+
+  footer{
+   width: 50vw;
+  }
+
+  .rodape{
+    width: auto;
+    margin: auto;
   }
 }
 
 
 @media( max-width: 375px){
+  body{
+    margin: auto;
+    width: 375px;
+  }
   .curriculo-des{
     width: 355px;
     }
   
   .curriculo-des h2{
-  font-size: 15px;
+  font-size: 16px;
   }
   
   .curriculo-des p{
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 16px;
     width: 355px;
     margin-left: 0px;
   }
 
   #foto-iza{
-    margin-bottom:341px;
+    margin-bottom:380px;
     margin-left:18vw;   
+  }
+
+  .experiencia{
+    width: 355px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .div{
+margin-left: 0px;
+width: 355px;
+  }
+
+  .experiencia h3{
+    margin: auto;
+    font-size: 12px;
   }
 
   .p{
     font-size: 12px;
-    margin-left: 13px;
-  }
-
-  .lista-exp{
-    margin-left: 26px;
-    font-size: 12px;
+    margin-left: 10px;
     width: 340px;
   }
 
-  .rodape{
+  .lista-exp{
+    font-size: 12px;
     width: 355px;
-    margin-left: -90px;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 15px;
+  }
+
+  .lista-exp li{
+    margin-bottom: 10px;
+    width: 330px;
+  }
+
+  .soft-principal{
+    width: 355px;
+    margin: auto;
+  }
+
+  .soft-slills{
+    font-size: 11px;
+    margin-top: 0px;
+    width: 355px;
+    margin: auto;
+  }
+
+  .formacao{
+    width: 360PX;
+  }
+
+  p{
+    margin-left: 4px;
+    width: 200px;
+  }
+
+  .rodape-wh{
+    width: 360px;
+    text-align: center;
+  }
+
+  .rodape{
+    width: auto;
   }
 }
 
 
 @media( max-width: 360px){
+  body{
+    margin: auto;
+    width: 360px;
+  }
   .curriculo-des{
     width: 340px;
     }
   
   .curriculo-des h2{
-  font-size: 15px;
+  font-size: 16px;
   }
   
   .curriculo-des p{
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 16px;
     width: 340px;
     margin-left: 0px;
   }
 
   #foto-iza{
-    margin-bottom:341px;
+    margin-bottom:395px;
     margin-left:18vw;   
+  }
+
+  .experiencia{
+    width: 340px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .div{
+margin-left: 0px;
+width: 350px;
+  }
+
+  .experiencia h3{
+    margin: auto;
+    font-size: 12px;
   }
 
   .p{
     font-size: 12px;
-    margin-left: 13px;
+    margin-left: 7px;
+    width: 340px;
+  }
+
+  p{
+    width: 200px;
   }
 
   .lista-exp{
-    margin-left: 26px;
     font-size: 12px;
     width: 340px;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 15px;
+  }
+
+  .lista-exp li{
+    margin-bottom: 10px;
+    width: 330px;
+  }
+
+  .soft-principal{
+    width: 340px;
+    margin: auto;
+  }
+
+  .soft-slills{
+    font-size: 11px;
+    margin-top: 0px;
+    width: 340px;
+    margin: auto;
+  }
+
+  .formacao{
+    width: 340PX;
+  }
+
+  .rodape-wh{
+    width: 355px;
+    text-align: center;
+  }
+
+  .rodape{
+    width: auto;
   }
 
 }
