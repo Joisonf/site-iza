@@ -454,7 +454,8 @@ margin-left: -90px;
 @media( max-width: 431px){
   body{
     margin: auto;
-    width: 425px;
+    width: 428px;
+    margin-right: 0px;
   }
   .curriculo-des{
     width: 410px;
@@ -469,12 +470,11 @@ margin-left: -90px;
     font-size: 12px;
     line-height: 16px;
     width: 410px;
-    margin-left: 0px;
   }
 
   #foto-iza{
-    margin-bottom:347px;
-    margin-left:22vw;   
+    margin-bottom:345px;
+    margin-left:23vw;   
   }
 
   .experiencia{
@@ -484,8 +484,7 @@ margin-left: -90px;
   }
 
   .div{
-margin-left: 0px;
-width: 395px;
+  width: 0px;
   }
 
   .experiencia h3{
@@ -495,19 +494,23 @@ width: 395px;
 
   .p{
     font-size: 12px;
+    width: 400px;
     margin-left: 8px;
   }
 
   .lista-exp{
     font-size: 12px;
     width: 410px;
-    margin-left: 20px;
     margin-top: 15px;
     line-height: 15px;
   }
 
   .lista-exp li{
     margin-bottom: 10px;
+    width: 390px;
+  }
+
+  .lista-exp ul{
     width: 410px;
   }
 
@@ -528,25 +531,18 @@ width: 395px;
   }
 
   p{
-    margin-left: 4px;
+
   }
 
   footer.rodape{
+    margin: auto;
     margin-top: 50px;
+    width: auto;
   }
 
   .rodape-wh{
-    width: 410px;
+    width: 400px;
     text-align: center;
-  }
-
-  footer{
-    width:auto;
-  }
-
-  .rodape{
-    width: auto;
-    margin: auto;
   }
 }
 
