@@ -625,7 +625,7 @@ text-align: end;
       .cores{
         position: absolute;
         font-size: 12px;
-        transform: translate(190%, -750%);
+        transform: translate(140%, -800%);
         background-color: black;
       }
       
@@ -636,7 +636,7 @@ text-align: end;
       .componentes{
         position: absolute;
         font-size: 12px;
-        transform: translate(200%, -750%);
+        transform: translate(150%, -800%);
         background-color: black;
       }
       
@@ -764,7 +764,7 @@ text-align: end;
       
       .cores{
         position: absolute;
-        transform: translate(170%, -750%);
+        transform: translate(140%, -800%);
         background-color: black;
       }
       
@@ -774,7 +774,7 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        transform: translate(220%, -750%);
+        transform: translate(150%, -800%);
         background-color: black;
       }
       
