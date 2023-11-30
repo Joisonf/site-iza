@@ -312,14 +312,14 @@
       
       #tituloNGlobal h1{
         color:#555555 ;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 30px;
         margin-top: -50px;
         margin-bottom: 0px;
       }
       
       #tituloGlobal-c h1{
-        font-size: 100px;
+        font-size: 90px;
         margin-top: -40px;
         font-weight: bold;
         color: #151515;
@@ -505,7 +505,7 @@
         font-size: 60px;
         margin-bottom: 0px;
        text-align: end;
-       margin-right: 20px;
+       margin-right: 0px;
        }
        
        .ui-final{
@@ -526,11 +526,11 @@
       
       #tituloNGlobal h1{
         color:#555555 ;
-        font-size: 30px;
+        font-size: 25px;
       }
       
       #tituloGlobal-c h1{
-        font-size: 100px;
+        font-size: 90px;
       }
 
       
@@ -608,7 +608,7 @@
         font-size: 60px;
         margin-bottom: 0px;
        text-align: end;
-       margin-right: 20px;
+       margin-right: 0px;
        }
        
        .ui-final{
