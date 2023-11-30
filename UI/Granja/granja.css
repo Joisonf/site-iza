@@ -766,7 +766,8 @@ text-align: end;
       
       .cores{
         position: absolute;
-        transform: translate(160%, -800%);
+        margin-left: -15px;
+        margin-top: -10px;
         font-size: 12px;
         background-color: black;
       }
@@ -777,7 +778,8 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        transform: translate(210%, -800%);
+        margin-left: 20px;
+        margin-top: -10px;
         font-size: 12px;
         background-color: black;
       }
