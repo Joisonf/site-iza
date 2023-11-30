@@ -614,18 +614,18 @@ text-align: end;
       
       .facaSeuPedido{
         position: absolute;
-        transform: translate(405%, -560%);
+        transform: translate(355%, -600%);
         background-color: black;
       }
       
       .facaSeuPedido img{
-        width:60px;
+        width:70px;
       }
       
       .cores{
         position: absolute;
-        margin-left: px;
-        margin-top: -50px;
+        margin-left: 15px;
+        margin-top: -30px;
         font-size: 12px;
         background-color: black;
       }
@@ -637,7 +637,7 @@ text-align: end;
       .componentes{
         position: absolute;
         margin-left: -65px;
-        margin-top: -20px;
+        margin-top: -5px;
         font-size: 12px;
         background-color: black;
       }
@@ -648,7 +648,7 @@ text-align: end;
       
       .logo{
         position: absolute;
-        transform: translate(630%, -350%);
+        transform: translate(660%, -350%);
         background-color: black;
       }
       
@@ -659,7 +659,7 @@ text-align: end;
       
       .penaRealPB{
         position: absolute;
-        transform: translate(400%, -150%);
+        transform: translate(440%, -150%);
         background-color: black;
       }
       
@@ -670,13 +670,13 @@ text-align: end;
       
       .penaRealC{
         position: absolute;
-        transform: translate(550%, -145%);
+        transform: translate(500%, -135%);
         background-color: black;
       }
       
       .penaRealC img{
         background-color: black;
-        width:50px;
+        width:60px;
       }
       
       .celular{
@@ -756,7 +756,7 @@ text-align: end;
       
       .facaSeuPedido{
         position: absolute;
-        transform: translate(375%, -720%);
+        transform: translate(395%, -720%);
         background-color: black;
       }
       
@@ -766,8 +766,8 @@ text-align: end;
       
       .cores{
         position: absolute;
-        margin-left: -35px;
-        margin-top: -15px;
+        margin-top: -50px;
+        margin-left: 10px;
         font-size: 12px;
         background-color: black;
       }
@@ -778,8 +778,8 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        margin-left: -25px;
-        margin-top: -15px;
+        margin-left: -35px;
+        margin-top: -20px;
         font-size: 12px;
         background-color: black;
       }
@@ -790,7 +790,7 @@ text-align: end;
       
       .logo{
         position: absolute;
-        transform: translate(690%, -430%);
+        transform: translate(730%, -430%);
         background-color: black;
       }
       
@@ -801,7 +801,7 @@ text-align: end;
       
       .penaRealPB{
         position: absolute;
-        transform: translate(460%, -150%);
+        transform: translate(500%, -150%);
         background-color: black;
       }
       
@@ -812,7 +812,7 @@ text-align: end;
       
       .penaRealC{
         position: absolute;
-        transform: translate(500%, -135%);
+        transform: translate(540%, -135%);
         background-color: black;
       }
       
@@ -901,7 +901,7 @@ text-align: end;
        
        .cores{
          position: absolute;
-         transform: translate(170%, -760%);
+         transform: translate(150%, -600%);
          font-size: 12px;
          background-color: black;
        }
@@ -912,7 +912,7 @@ text-align: end;
        
        .componentes{
          position: absolute;
-         transform: translate(190%, -760%);
+         transform: translate(220%, -720%);
          font-size: 12px;
          background-color: black;
        }
@@ -1030,7 +1030,7 @@ text-align: end;
     }
 
     .figuraE img{
-      width:340px;
+      width:350px;
       height: 200px;
     }
 
