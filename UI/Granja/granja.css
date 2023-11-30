@@ -532,7 +532,7 @@ text-align: end;
     }
     
     #tituloGlobal h1{
-      font-size: 150px;
+      font-size: 100px;
       font-weight:bold;
       color: #151515;
       text-shadow: 
@@ -597,7 +597,7 @@ text-align: end;
       }
 
       .figuraE img{
-        width:350px;
+        width:400px;
         height: 200px;
       }
 
@@ -756,7 +756,7 @@ text-align: end;
       
       .facaSeuPedido{
         position: absolute;
-        transform: translate(345%, -660%);
+        transform: translate(375%, -720%);
         background-color: black;
       }
       
@@ -766,7 +766,7 @@ text-align: end;
       
       .cores{
         position: absolute;
-        transform: translate(170%, -760%);
+        transform: translate(160%, -800%);
         font-size: 12px;
         background-color: black;
       }
@@ -777,7 +777,7 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        transform: translate(190%, -760%);
+        transform: translate(210%, -800%);
         font-size: 12px;
         background-color: black;
       }
@@ -788,7 +788,7 @@ text-align: end;
       
       .logo{
         position: absolute;
-        transform: translate(640%, -400%);
+        transform: translate(690%, -430%);
         background-color: black;
       }
       
@@ -799,7 +799,7 @@ text-align: end;
       
       .penaRealPB{
         position: absolute;
-        transform: translate(420%, -150%);
+        transform: translate(460%, -150%);
         background-color: black;
       }
       
@@ -810,7 +810,7 @@ text-align: end;
       
       .penaRealC{
         position: absolute;
-        transform: translate(470%, -135%);
+        transform: translate(500%, -135%);
         background-color: black;
       }
       
