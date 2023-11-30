@@ -624,7 +624,7 @@ text-align: end;
       
       .cores{
         position: absolute;
-        margin-left: 15px;
+        margin-left: 0px;
         margin-top: -30px;
         font-size: 12px;
         background-color: black;
@@ -636,7 +636,7 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        margin-left: -65px;
+        margin-left: -80px;
         margin-top: -5px;
         font-size: 12px;
         background-color: black;
@@ -767,7 +767,7 @@ text-align: end;
       .cores{
         position: absolute;
         margin-top: -5vh;
-        margin-left: 3vw;
+        margin-left: -5vw;
         font-size: 12px;
         background-color: black;
       }
@@ -778,7 +778,7 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        margin-left: -4vh;
+        margin-left: -8vh;
         margin-top: -2vh;
         font-size: 12px;
         background-color: black;
