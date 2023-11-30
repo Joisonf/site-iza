@@ -622,11 +622,10 @@ text-align: end;
         width:60px;
       }
       
-     
-      
       .cores{
         position: absolute;
-        transform: translate(200%, -760%);
+        margin-left: px;
+        margin-top: -50px;
         font-size: 12px;
         background-color: black;
       }
@@ -637,7 +636,8 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        transform: translate(190%, -760%);
+        margin-left: -65px;
+        margin-top: -20px;
         font-size: 12px;
         background-color: black;
       }
@@ -874,7 +874,7 @@ text-align: end;
          width:360px;}
  
        .figuraE img{
-         width:350px;
+         width:380px;
          height: 200px;
        }
  
@@ -994,6 +994,11 @@ text-align: end;
       font-size: 12px;
     }
 
+    .figuraE img{
+      width:360px;
+      height: 200px;
+    }
+
     .figuras img{
       width:345px;}
 
@@ -1022,6 +1027,11 @@ text-align: end;
     #homeGlobalTexto{
       width: 340px;
       font-size: 12px;
+    }
+
+    .figuraE img{
+      width:340px;
+      height: 200px;
     }
 
     .figuras img{
