@@ -766,7 +766,7 @@ text-align: end;
       
       .cores{
         position: absolute;
-        margin-left: -15px;
+        margin-left: -30px;
         margin-top: -10px;
         font-size: 12px;
         background-color: black;
@@ -778,7 +778,7 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: -10px;
         font-size: 12px;
         background-color: black;
@@ -855,7 +855,7 @@ text-align: end;
      }
      
      #tituloGlobal h1{
-       font-size: 150px;
+       font-size: 100px;
        color: #151515;
        
      }
@@ -984,7 +984,7 @@ text-align: end;
     }
     
     #tituloGlobal h1{
-      font-size: 150px;
+      font-size: 100px;
       color: #151515;
       
     }
@@ -1014,7 +1014,7 @@ text-align: end;
     }
     
     #tituloGlobal h1{
-      font-size: 140px;
+      font-size: 100px;
       color: #151515;
       
     }
