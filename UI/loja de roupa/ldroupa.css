@@ -48,8 +48,8 @@ line-height: 100px;
 
 @media(max-width:450px){
   #tituloGlobal-S h1{
-    font-size: 150px;
-    font-weight: normal;
+    font-size: 100px;
+    font-weight: bold;
     color: #151515;
     text-shadow: 
     2px 2px 0px #d82543,
@@ -60,7 +60,12 @@ line-height: 100px;
   }
 
   #homeGlobal{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: -40px;
+  }
+
+  #tituloNGranja h1{
+    font-size: 35px;
   }
 
   #homeGlobal h1{
@@ -73,7 +78,7 @@ line-height: 100px;
   }
 
   .ui-final p{
-    font-size: 60px;
+    font-size: 50px;
   }
 
   footer p{
@@ -82,3 +87,23 @@ line-height: 100px;
     margin-bottom: 0px;
   }
 }
+
+@media(max-width:395px){
+  #tituloGlobal-S h1{
+    font-size: 90px;}
+
+    #tituloNGranja h1{
+      font-size: 35px;
+      margin-left: 5px;
+    }
+  }
+
+  @media(max-width:376px){
+    #tituloGlobal-S h1{
+      font-size: 90px;}
+
+      #tituloNGranja h1{
+        font-size: 35px;
+        margin-left: 5px;
+      }
+    }

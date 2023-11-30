@@ -49,10 +49,10 @@
     2px -2px 0px #eb2a25;
   }}
 
-@media(max-width:555px){
+@media(max-width:431px){
   #tituloGlobal-S h1{
-    font-size: 150px;
-    font-weight: normal;
+    font-size: 100px;
+    font-weight: bold;
     color: #151515;
     text-shadow: 
     2px 2px 0px #eb2a25,
@@ -63,12 +63,17 @@
   }
 
   #homeGlobal{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+  }
+
+  #tituloNGranja h1{
+    font-size: 40px;
   }
 
   #homeGlobal h1{
     line-height: 30px;
     margin-top: 50px;
+ 
   }
 
   .contatoSB p{
@@ -84,4 +89,27 @@
     margin-top: 13vh;
     margin-bottom: 0px;
   }
+}
+
+@media(max-width:415px){
+  #tituloNGranja h1{
+    font-size: 40px;
+    margin-top: 60px;
+  }
+}
+
+@media(max-width:395px){
+  #tituloNGranja h1{
+    font-size: 35px;
+    margin-top: 60px;
+  }
+
+  #homeGlobal{
+    margin-top: -55px;
+  }
+
+  .ui-final p{
+    font-size: 50px;
+    margin-top: 60px;
+    }
 }

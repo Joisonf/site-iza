@@ -57,9 +57,12 @@
   }}
 
 @media(max-width:555px){
+  body{
+    width: 420px;
+  }
   #tituloGlobal-S h1{
-    font-size: 120px;
-    font-weight: normal;
+    font-size: 100px;
+    font-weight: bold;
     color: #151515;
     text-shadow: 
     2px 2px 0px #e94c43,
@@ -80,12 +83,14 @@
   }
 
   #tituloNGranja h1{
-    font-size: 25px;
+    font-size: 35px;
     line-height: 30px;
+    margin-left: 5px;
+    margin-top: 40px;
   }
 
   .ui-final p{
-    font-size: 60px;
+    font-size: 50px;
   }
 
   footer p{
@@ -94,3 +99,57 @@
     margin-bottom: 0px;
   }
 }
+
+@media(max-width:415px){
+  body{
+    width: 390px;
+  }
+  #tituloGlobal-S h1{
+    font-size: 100px;}
+  
+    .ui-final p{
+      font-size: 50px;
+  
+    }
+
+    footer{
+      font-size: 10px;
+    width: auto;
+      }
+  }
+
+  @media(max-width:395px){
+    body{
+      width: 380px;
+    }
+    #tituloGlobal-S h1{
+      font-size: 90px;}
+    
+      .ui-final p{
+        font-size: 50px;
+    
+      }
+  
+      footer{
+        font-size: 10px;
+      width: auto;
+        }
+    }
+
+    @media(max-width:376px){
+      body{
+        width: 360px;
+      }
+      #tituloGlobal-S h1{
+        font-size: 90px;}
+      
+        .ui-final p{
+          font-size: 50px;
+      
+        }
+    
+        footer{
+          font-size: 10px;
+        width: auto;
+          }
+      }

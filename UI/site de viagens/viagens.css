@@ -50,10 +50,11 @@
     2px -2px 0px #fcbd70;
   }}
 
-@media(max-width:555px){
+@media(max-width:432px){
   #tituloGlobal-S h1{
-    font-size: 150px;
-    font-weight: normal;
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: 5px;
     color: #151515;
     text-shadow: 
     2px 2px 0px #fcbd70,
@@ -64,12 +65,13 @@
   }
 
   #homeGlobal{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: -50px;
   }
 
   #homeGlobal h1{
     line-height: 30px;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
 
@@ -78,7 +80,7 @@
   }
 
   .ui-final p{
-    font-size: 60px;
+    font-size: 50px;
   }
 
   footer p{
@@ -87,3 +89,7 @@
     margin-bottom: 0px;
   }
 }
+
+@media(max-width:395px){
+  #tituloGlobal-S h1{
+    font-size: 90px;}}

@@ -104,29 +104,26 @@
   }
 }
 
-@media (max-width:555px){
-  #homeGlobal{
-    font-size: 50px;
-    width: 370px;
- margin: auto;
-  }
-  
-  .contatoSB{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 50px;
+@media (max-width:431px){
+  body{
+    width: 420px;
   }
 
+  #homeGlobal{
+    width: 410px;
+    margin: auto;
+    margin-top: -20px;
+  }
+  
+
   #tituloNGranja h1{
-    font-size: 30px;
-    line-height: 30px;
-    text-align: start;
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: 30px;
   }
   
   .contatoSB img{
-    width:370px;
+    width:410px;
     text-align: center;
   }
   
@@ -136,15 +133,9 @@
     margin-bottom: 10px;
   }
   
-  #homeB{
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-bottom: 0px;
-  }
-  
   #tituloGlobal-B h1{
-    font-size: 150px;
-    font-weight: normal;
+    font-size: 90px;
+    font-weight: bold;
     color: #151515;
     text-shadow: 
     2px 2px 0px #fdb304,
@@ -159,19 +150,278 @@
   }
 }
 
-@media (max-width:400px){
+@media (max-width:415px){
   #homeGlobal{
-    font-size: 50px;
-    width: 340px;
-    margin: auto;
+    width: 700px;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 50px;
   }
 
+  #tituloGlobal-B h1{
+    font-size: 250px;
+    font-weight: normal;
+    color: #151515;
+    text-shadow: 
+    2px 2px 0px #fdb304,
+    2px 2px 0px #fdb304,
+    -2px -2px 0px #fdb304,
+    -2px 2px 0px #fdb304,
+    2px -2px 0px #fdb304;
+  }
+
+  #tituloNGranja h1{
+    font-size: 70px;
+    line-height: 70px;
+    text-align: start;
+  
+  }
+
+  .contatoSB img{
+    width:700px;
+  }
+}
+
+@media (max-width:431px){
+  body{
+    width: 410px;
+  }
+
+  #homeGlobal{
+    width: 390px;
+    margin: auto;
+    margin-top: -20px;
+  }
+  
+
+  #tituloNGranja h1{
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+
+  .contatoSB{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -20px;
+  }
+  
+  .contatoSB img{
+    width:380px;
+    text-align: center;
+  }
+  
+  .contatoSB p{
+    text-align: start;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  #tituloGlobal-B h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: #151515;
+    text-shadow: 
+    2px 2px 0px #fdb304,
+    2px 2px 0px #fdb304,
+    -2px -2px 0px #fdb304,
+    -2px 2px 0px #fdb304,
+    2px -2px 0px #fdb304;
+  }
+
+  footer{
+width: 410px;
+margin: auto;
+padding: 0px;
+  }
+  
+  .linhaB{
+    display: none;
+  }
+}
+
+@media (max-width:395px){
+  body{
+    width: 385px;
+  }
+
+  #homeGlobal{
+    width: 375px;
+    margin: auto;
+    margin-top: -20px;
+  }
+  
+
+  #tituloNGranja h1{
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+
+  .contatoSB{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -20px;
+  }
+  
+  .contatoSB img{
+    width:370px;
+    text-align: center;
+  }
+  
+  .contatoSB p{
+    text-align: start;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  #tituloGlobal-B h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: #151515;
+    text-shadow: 
+    2px 2px 0px #fdb304,
+    2px 2px 0px #fdb304,
+    -2px -2px 0px #fdb304,
+    -2px 2px 0px #fdb304,
+    2px -2px 0px #fdb304;
+  }
+
+  footer{
+width: 385px;
+margin: auto;
+padding: 0px;
+  }
+  
+  .linhaB{
+    display: none;
+  }
+}
+
+@media (max-width:376px){
+  body{
+    width: 370px;
+  }
+
+  #homeGlobal{
+    width: 355px;
+    margin: auto;
+    margin-top: -20px;
+  }
+  
+
+  #tituloNGranja h1{
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+
+  .contatoSB{
+    width: 340px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -20px;
+  }
+  
+  .contatoSB img{
+    width:355px;
+    text-align: center;
+  }
+  
+  .contatoSB p{
+    text-align: start;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
+  #tituloGlobal-B h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: #151515;
+    text-shadow: 
+    2px 2px 0px #fdb304,
+    2px 2px 0px #fdb304,
+    -2px -2px 0px #fdb304,
+    -2px 2px 0px #fdb304,
+    2px -2px 0px #fdb304;
+  }
+
+  footer{
+width: 365px;
+margin: auto;
+padding: 0px;
+  }
+
+  .ui-final{
+    margin-bottom: 10px;
+  }
+  
+  .linhaB{
+    display: none;
+  }
+}
+
+@media (max-width:361px){
+  body{
+    width: 355px;
+  }
+
+  #homeGlobal{
+    width: 340px;
+    margin: auto;
+    margin-top: -20px;
+  }
+  
+
+  #tituloNGranja h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+
+  .contatoSB{
+    width: 320px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -20px;
+  }
+  
   .contatoSB img{
     width:340px;
     text-align: center;
   }
-
+  
+  .contatoSB p{
+    text-align: start;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  
   #tituloGlobal-B h1{
-    font-size: 130px;
+    font-size: 90px;
+    font-weight: bold;
+    color: #151515;
+    text-shadow: 
+    2px 2px 0px #fdb304,
+    2px 2px 0px #fdb304,
+    -2px -2px 0px #fdb304,
+    -2px 2px 0px #fdb304,
+    2px -2px 0px #fdb304;
+  }
+
+  footer{
+width: 355px;
+margin: auto;
+padding: 0px;
+  }
+
+  .ui-final{
+    margin-bottom: 10px;
+  }
+  
+  .linhaB{
+    display: none;
   }
 }

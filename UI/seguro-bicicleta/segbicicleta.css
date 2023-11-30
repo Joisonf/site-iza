@@ -50,10 +50,10 @@ height: 1500px;
 
 
 
-@media (max-width:555px){
+@media (max-width: 431px){
   #tituloGlobal-S h1{
-    font-size: 130px;
-    font-weight: normal;
+    font-size: 100px;
+    font-weight: bold;
     color: #151515;
     text-shadow: 
     2px 2px 0px #c793ff,
@@ -68,7 +68,7 @@ height: 1500px;
   }
 
   .contatoSB{
-    margin-top: 0px;
+    margin-top: -30px;
   }
   
   .linhaB{
@@ -84,13 +84,23 @@ height: 1500px;
     text-align: end;
   }
 
-  @media (max-width:400px){
+  @media (max-width:415px){
     #tituloGlobal-S h1{
-      font-size:110px;}
+      font-size:100px;}
 
     #tituloNGranja h1{
       font-size: 35px;
       text-align: end;
     }
 }
+}
+
+@media (max-width:395px){
+  #tituloGlobal-S h1{
+    font-size:90px;}
+
+  #tituloNGranja h1{
+    font-size: 30px;
+    text-align: end;
+  }
 }
