@@ -509,33 +509,38 @@ text-align: end;
   }
   
 
-  @media (max-width: 430px){
+  @media (max-width: 431px){
     #linhaGranja{
      display: none;
     }
+
+    body{
+      margin: auto;
+    }
     
     #homeGlobal{
-      margin-top: 100px;
-      font-size: 50px;
-      line-height: 50px;
-      width: 370px;
+      width: 410px;
       margin: auto;
     }
     
     #homeGlobal h1{
       color:#555555 ;
-      font-size: 35px;
+      font-size: 40px;
+      line-height: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     
     #tituloGlobal h1{
       font-size: 150px;
-      font-weight: normal;
+      font-weight:bold;
       color: #151515;
       text-shadow: 
-      -2px -2px 8px #f58634,
-      -2px 2px 8px #f58634,
-      2px 2px 2px #f58634,
-      2px 2px 2px #f58634;
+      2px 2px 0px #f58634,
+        2px 2px 0px #f58634,
+        -2px -2px 0px #f58634,
+        -2px 2px 0px #f58634,
+        2px -2px 0px #f58634;
     }
     
     #homeGlobalTexto{
@@ -545,7 +550,7 @@ text-align: end;
       margin:auto;
       margin-top: 30px;
       margin-bottom: 50px;
-      width: 370px;
+      width: 380px;
       font-size: 12px;
     }
     
@@ -569,7 +574,7 @@ text-align: end;
       }
       
       .figuras img{
-        width:370px;
+        width:400px;
       }
       .qua-esq{
         display: none;
@@ -681,13 +686,13 @@ text-align: end;
       }
       
       .celular img{
-        width:370px;
+        width:400px;
         height:250px;
       }
       
       .ui-final p{
-       font-size: 150px;
-       margin-bottom: 0px;
+       font-size: 50px;
+      margin-right: 10px;
       text-align: end;
       }
       
@@ -699,92 +704,39 @@ text-align: end;
 
  
 
-  @media (max-width: 400px){
+  @media (max-width: 415px){
     #linhaGranja{
      display: none;
     }
     
     #homeGlobal{
-      margin-top: 100px;
-      font-size: 40px;
-      line-height: 50px;
-      width: 340px;
+      width: 395px;
       margin: auto;
     }
     
     #homeGlobal h1{
       color:#555555 ;
-      font-size: 30px;
+      font-size: 35px;
     }
     
     #tituloGlobal h1{
-      font-size: 140px;
-      font-weight: normal;
+      font-size: 150px;
       color: #151515;
-      text-shadow: 
-      -2px -2px 8px #f58634,
-      -2px 2px 8px #f58634,
-      2px 2px 2px #f58634,
-      2px 2px 2px #f58634;
+      
     }
     
     #homeGlobalTexto{
-      display: grid;
-      align-items: center;
-      justify-content: center;
-      margin:auto;
-      margin-top: 30px;
-      margin-bottom: 50px;
-      width: 350px;
+      width: 380px;
       font-size: 12px;
     }
-    
-    a{
-      margin-top: 10px;
-      color: #f58634;
-    }
-    
-    #homeGlobalTexto a:hover{
-      color: blue;
-    }
 
-    #home-granja{
-      justify-content:center;
-      }
-      
-      
       .figuras{
         margin-left: 0vw;
         margin-bottom: 50px;
       }
-
-      .figuras img{
-        width:370px;
-       
-      }
       
       .figuras img{
-        width:350px;}
-      
-      .qua-esq{
-        display: none;
-      }
-      
-      .qua-esq img{
-       display: none;
-      }
-      
-      .qua-dir{
-        display: none;
-      }
-      
-      .qua-dir img{
-       display: none;
-      }
-      
-      .figma{
-       display: none;
-      }
+        width:380px;}
 
       .figuraE img{
         width:350px;
@@ -793,30 +745,28 @@ text-align: end;
 
       .principal-granja{
         position: absolute;
-        transform: translate(50%, -105%);
+        transform: translate(30%, -110%);
         background-color: black;
       }
       
       .principal-granja img{
         background-color: black;
-        width:110px;
+        width:130px;
       }
       
       .facaSeuPedido{
         position: absolute;
-        transform: translate(405%, -560%);
+        transform: translate(345%, -660%);
         background-color: black;
       }
       
       .facaSeuPedido img{
-        width:60px;
+        width:70px;
       }
-      
-     
       
       .cores{
         position: absolute;
-        transform: translate(200%, -760%);
+        transform: translate(170%, -760%);
         font-size: 12px;
         background-color: black;
       }
@@ -838,7 +788,7 @@ text-align: end;
       
       .logo{
         position: absolute;
-        transform: translate(630%, -350%);
+        transform: translate(640%, -400%);
         background-color: black;
       }
       
@@ -849,7 +799,7 @@ text-align: end;
       
       .penaRealPB{
         position: absolute;
-        transform: translate(400%, -150%);
+        transform: translate(420%, -150%);
         background-color: black;
       }
       
@@ -860,13 +810,13 @@ text-align: end;
       
       .penaRealC{
         position: absolute;
-        transform: translate(550%, -145%);
+        transform: translate(470%, -135%);
         background-color: black;
       }
       
       .penaRealC img{
         background-color: black;
-        width:50px;
+        width:60px;
       }
       
       .celular{
@@ -876,35 +826,209 @@ text-align: end;
       }
       
       .celular img{
-        width:350px;
+        width:380px;
         height:250px;
       }
       
       .ui-final p{
-       font-size: 100px;
-       margin-bottom: 0px;
-      text-align: end;
+       font-size: 50px;
       }
       
-      .ui-final{
-        margin: 0px;
-        padding: 0px;
-      }
+
   }
 
-  @media (max-width: 375px){
-    .figuras{
-      margin-left: 3vw;
-      margin-bottom: 50px;
+  @media (max-width: 395px){
+    #linhaGranja{
+      display: none;
+     }
+     
+     #homeGlobal{
+       width: 370px;
+       margin: auto;
+     }
+     
+     #homeGlobal h1{
+       color:#555555 ;
+       font-size: 35px;
+     }
+     
+     #tituloGlobal h1{
+       font-size: 150px;
+       color: #151515;
+       
+     }
+     
+     #homeGlobalTexto{
+       width: 370px;
+       font-size: 12px;
+     }
+ 
+       .figuras{
+         margin-left: 0vw;
+         margin-bottom: 50px;
+       }
+       
+       .figuras img{
+         width:360px;}
+ 
+       .figuraE img{
+         width:350px;
+         height: 200px;
+       }
+ 
+       .principal-granja{
+         position: absolute;
+         transform: translate(30%, -110%);
+         background-color: black;
+       }
+       
+       .principal-granja img{
+         background-color: black;
+         width:130px;
+       }
+       
+       .facaSeuPedido{
+         position: absolute;
+         transform: translate(345%, -660%);
+         background-color: black;
+       }
+       
+       .facaSeuPedido img{
+         width:70px;
+       }
+       
+       .cores{
+         position: absolute;
+         transform: translate(170%, -760%);
+         font-size: 12px;
+         background-color: black;
+       }
+       
+       .cores h2{
+         background-color: black;
+       }
+       
+       .componentes{
+         position: absolute;
+         transform: translate(190%, -760%);
+         font-size: 12px;
+         background-color: black;
+       }
+       
+       .componentes h2{
+         background-color: black;
+       }
+       
+       .logo{
+         position: absolute;
+         transform: translate(640%, -400%);
+         background-color: black;
+       }
+       
+       .logo img{
+         background-color: black;
+         width:40px;
+       }
+       
+       .penaRealPB{
+         position: absolute;
+         transform: translate(420%, -150%);
+         background-color: black;
+       }
+       
+       .penaRealPB img{
+         background-color: black;
+         width:50px;
+       }
+       
+       .penaRealC{
+         position: absolute;
+         transform: translate(470%, -135%);
+         background-color: black;
+       }
+       
+       .penaRealC img{
+         background-color: black;
+         width:60px;
+       }
+       
+       .celular{
+         text-align: center;
+         margin-top: 50px;
+         margin-bottom: 50px;
+       }
+       
+       .celular img{
+         width:360px;
+         height:250px;
+       }
+       
+       .ui-final p{
+        font-size: 50px;
+       }
+       
+  }
+
+
+  @media (max-width: 376px){
+    #homeGlobal{
+      width: 350px;
+      margin: auto;
     }
-  }
-
-
-  @media (max-width: 360px){
-    .figuras{
-      margin-left: 0vw;
-      margin-bottom: 50px;
+    
+    #homeGlobal h1{
+      color:#555555 ;
+      font-size: 32px;
     }
-  }
+    
+    #tituloGlobal h1{
+      font-size: 150px;
+      color: #151515;
+      
+    }
+    
+    #homeGlobalTexto{
+      width: 350px;
+      font-size: 12px;
+    }
+
+    .figuras img{
+      width:345px;}
+
+  .celular img{
+    width:345px;
+    height:250px;
+  }}
+
+  @media (max-width: 361px){
+    #homeGlobal{
+      width: 340px;
+      margin: auto;
+    }
+    
+    #homeGlobal h1{
+      color:#555555 ;
+      font-size: 32px;
+    }
+    
+    #tituloGlobal h1{
+      font-size: 140px;
+      color: #151515;
+      
+    }
+    
+    #homeGlobalTexto{
+      width: 340px;
+      font-size: 12px;
+    }
+
+    .figuras img{
+      width:330px;}
+
+  .celular img{
+    width:330px;
+    height:250px;
+  }}
+  
 
 
