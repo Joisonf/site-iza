@@ -624,9 +624,8 @@ text-align: end;
       
       .cores{
         position: absolute;
-        margin-left: 0px;
-        margin-top: -30px;
         font-size: 12px;
+        transform: translate(190%, -750%);
         background-color: black;
       }
       
@@ -636,9 +635,8 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        margin-left: -80px;
-        margin-top: -5px;
         font-size: 12px;
+        transform: translate(200%, -750%);
         background-color: black;
       }
       
@@ -766,9 +764,7 @@ text-align: end;
       
       .cores{
         position: absolute;
-        margin-top: -5vh;
-        margin-left: -5vw;
-        font-size: 12px;
+        transform: translate(170%, -750%);
         background-color: black;
       }
       
@@ -778,9 +774,7 @@ text-align: end;
       
       .componentes{
         position: absolute;
-        margin-left: -8vh;
-        margin-top: -2vh;
-        font-size: 12px;
+        transform: translate(220%, -750%);
         background-color: black;
       }
       
